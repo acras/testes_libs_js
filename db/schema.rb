@@ -22,4 +22,9 @@ ActiveRecord::Schema.define(:version => 20130112170948) do
     t.string  "value"
   end
 
+  create_table "people", :force => true do |t|
+    t.string "name"
+    t.date   "born_at"
+  end
+
 end

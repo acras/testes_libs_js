@@ -1,0 +1,2 @@
+* O ember-data ainda não está bom para produção
+* As coisas mudam muito rapido, documentação se torna não confiável

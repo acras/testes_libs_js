@@ -12,4 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ./vendor/handlebars-1.0.rc.1.js
+//= require ./vendor/ember-1.0.0-pre.2
+//= require ./vendor/ember-data
+//= require_self
+//= require testes_libs_js
+TestesLibsJs = Ember.Application.create();
 //= require_tree .
