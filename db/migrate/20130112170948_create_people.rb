@@ -7,6 +7,7 @@ class CreatePeople < ActiveRecord::Migration
 
     create_table 'contacts' do |t|
       t.integer 'contact_type_id'
+      t.integer 'person_id'
       t.string 'value'
     end
 

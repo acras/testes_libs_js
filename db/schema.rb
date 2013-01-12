@@ -19,7 +19,13 @@ ActiveRecord::Schema.define(:version => 20130112170948) do
 
   create_table "contacts", :force => true do |t|
     t.integer "contact_type_id"
+    t.integer "person_id"
     t.string  "value"
+  end
+
+  create_table "people", :force => true do |t|
+    t.string "name"
+    t.date   "born_at"
   end
 
 end
